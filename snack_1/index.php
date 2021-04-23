@@ -46,13 +46,12 @@
 
 for($i = 0; $i < count($listaPartite); ++$i) {
     echo 
-        'La partita tra ' . 
         $listaPartite[$i]['SquadraUnoNome']. 
-        ' e ' .
+        ' - ' .
         $listaPartite[$i]['SquadraDueNome'].
-        ' è finita con il risultato di '.
-        $listaPartite[$i]['SquadraUnoRisultato'].
         ' | '.
+        $listaPartite[$i]['SquadraUnoRisultato'].
+        ' - '.
         $listaPartite[$i]['SquadraDueRisultato']. '<br><br>';
  }
     ?>
